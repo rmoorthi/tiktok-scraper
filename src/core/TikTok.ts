@@ -937,6 +937,7 @@ export class TikTokScraper extends EventEmitter {
                     authorMeta: {
                         id: videoProps.props.pageProps.videoData.itemInfos.authorId,
                         name: videoProps.props.pageProps.videoData.authorInfos.uniqueId,
+                        avatar: videoProps.props.pageProps.videoData.authorInfos.covers[0],
                     },
                     musicMeta: {
                         musicId: videoProps.props.pageProps.videoData.musicInfos.musicId,
